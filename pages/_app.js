@@ -3,11 +3,15 @@ import { ThemeProvider } from 'next-themes';
 import '../styles/globals.css';
 import { Navbar, Footer } from '../components';
 
-const MyApp = ({ Component, pageProps }) => (
+const Marketplace = ({ Component, pageProps }) => (
   <ThemeProvider attribute="class">
     <div className="dark:bg-nft-dark bg-white min-h-screen">
       <Navbar />
-      <Component {...pageProps} />
+      <div className="pt-65">
+        <Component
+          {...pageProps}
+        />
+      </div>
       <Footer />
     </div>
 
@@ -16,4 +20,4 @@ const MyApp = ({ Component, pageProps }) => (
 
 );
 
-export default MyApp;
+export default Marketplace;
