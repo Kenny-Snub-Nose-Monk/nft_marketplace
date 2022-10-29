@@ -36,10 +36,11 @@
   
 .label {
     transform: scale(1.5);
+    padding:0.2rem
 }
   
 .ball {
-    top: 2px;
+    top: 1.2px;
     left: 2px;
     transition: transform 0.2s linear;
 }
@@ -51,12 +52,12 @@
   
 .fa-moon {
     color: pink;
-    font-size: 9px;
+    font-size: 7px;
 }
   
 .fa-sun {
     color: yellow;
-    font-size: 9px;
+    font-size: 7px;
 }
 
 .animated {

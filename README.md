@@ -1,5 +1,14 @@
 
+## Home Page
 
+![Home](./home.png)
+
+
+## Create NFT 
+
+Use [React DropZone](https://react-dropzone.js.org/) to upload NFT picture.
+
+![Create NFT](./create_nft.png)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
